@@ -32,4 +32,4 @@ ___
 ## Startujemy!
 
 Zapraszam do ->
-[Samouczek](./samouczek.md)
+[Wprowadzenie do poleceń - bash](./wprowadzenie.md)

@@ -105,3 +105,7 @@ Pozwala wyświetlić strukturę katalogu w którym obecnie się znajdujemy.
 # Dodatkowe komendy
 
 ## code - otwiera edycję pliku w VSCode - jeśtli jest zainstalowny
+
+## Wyposażeni w podstawową wiedzę możemy rozpocząć praktyczną przygodę!
+Zapraszam do 
+[samouczeka](./samouczek.md)
