@@ -28,3 +28,8 @@ Shell (powłoka) - to nic innego jak interface wiersza poleceń (w uproszczeniu 
 Terminal to po prostu program, który obsługuje daną powłokę. Pozwala na uruchomienie powłoki i komunikacji użytkonika z nią. To w nim wpisujemy polecenia, które są wykonywane przez Shell.
 
 Jeżeli chodzi o terminal należy pamiętać że jest to jedno z narzędzi, które można dosyć mocno dostosować pod swoje potrzeby. Z tego względu część informacji jak i sposób ich wyświetlania może się róznić w zależności od ustawień.
+___
+## Startujemy!
+
+Zapraszam do ->
+[Samouczek](./samouczek.md)
