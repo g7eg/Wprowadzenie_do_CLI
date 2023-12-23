@@ -54,6 +54,27 @@ Pozwala wyświetlić listę plików z bardziej szczegółowym opisem.
 ![ls-l](img/ls-l.png)
 
 ## cd - przejdź do katalogu
+change directory - Pozwala przejść do katalogu.
+Podajemy polecenie cd a następnie folder do którego chcemy przejść.
+```bash
+cd example
+```
+W przykładze wywołano wczesniej ls w celu wylistowania dostępnych plików i katalogów. Następnie podano polcenie zmiany katalogu cd i nazwę katalogu.
+
+#### TIP!
+___
+Podczas wpisywania np nazwy katalogu nie musisz wpisać jej w całości. Wystarczy że wpiszesz pierwszą literę katalogu i naciśniesz klawisz TAB (tabulator). Terminal sam uzupełni nazwę katalogu. Jeżeli katalogów jest więcej spełniających to kryterium (zaczynają się na 'e'), terminal wświetli ponownie listę katalogów które spałniają to kryterium, podając kolejna literę i ponownie wciskając klawisz TAB nazwa zostanie uzupełniona automatycznie.
+![cd](img/cd.png)
+Wiemy już jakprzechodzić z katalogu do kolejnego katalogu.
+Natomiast co jeżeli popełnimy błąd i chcemy powrócić do wcześneijszego katalogu?
+W takiej sytuacji możemy wykorzystać również polcenie cd ale z dwoma znakmami '..'
+```bash
+cd ..
+```
+Zauważ że w przykładzie poniżej przed wywołaniem polcenie '*cd ..*' znajdowaliśmy się w katalogu example.
+Po wywołaniu wróciliśmy do poprzedniego katalogu.
+
+![cd ..](img/cd_back.png)
 ## pwd - wyświetl ścieżkę do obecnego katalogu
 ## mkdir - utwórz nowy katalog
 ## mv - przenieś plik
