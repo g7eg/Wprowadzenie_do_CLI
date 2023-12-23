@@ -1,4 +1,4 @@
-# Wprowadzenie do Terminala:
+# Wprowadzenie do CLI (Comand Line Interface):
 ## Jak korzystać z niniejszych materiałów?
 W celu realizacji zadań zgodnie z treścią polecenia wymagane jest utworzenie konta na platformie Github.com
 Po utworzeniu konta zalecamy zweryfikować status studenta w celu uzyskania dostępu do szerszych zasobów platformy.
