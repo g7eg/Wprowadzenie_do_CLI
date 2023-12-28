@@ -1,18 +1,16 @@
 
-# Wprowadzenie do poleceń - bash
-Poniżej zostały opisane podstawowe polecenie pozwalające w postawowym zakresie dokonać operacji na plikach i katalogach.
+# 🔵 Wprowadzenie do poleceń - bash
+Poniżej zostały opisane polecenie pozwalające w postawowym zakresie dokonać operacji na plikach i katalogach za pomocą CLI.
 
 
 ## Zanim rozpoczniemy pracę:
-Na samym początku nalezy uruchomić środowisko Codespace logując się przy tym na swoje konto GitHub.
+Na samym początku należy uruchomić środowisko Codespace logując się przy tym na swoje konto GitHub.
 
-Po jego uruchmieniu upewnij się ze w dolnej części okna przeglądarki znajduje się Terminal.
+Po jego uruchmieniu upewnij się że w dolnej części okna przeglądarki znajduje się Terminal.
 
+Jeżeli go nie widzisz z menu wybierz ikonę <b> ≡ (ikona menu hamburgera)</b> -> terminal -> nowy terminal.
 
-Jezeli go nie widzisz z menu wybierz ikonę <b> ≡ (ikona menu hamburgera)</b>  -> następnie terminal -> nowy terminal.
-
-Powinieneś zauwazyc w oknie terminalu coś podobnego do:
-
+Powinieneś zauważyć w oknie terminalu który otowrzy się w dolnej części ekranu, coś podobnego do:
 
 ![Przykładowy zrzut erkanu z terminalu](./img/terminal.png)
 
@@ -22,7 +20,7 @@ Oznacza to że wszystko zostało uruchomione poprawnie i możemy przystąpić do
 
 Wszystkie polecenia będzie wpisywać po znaku zachęty.
 
-# Podstawowe polecenia bash - wprowadzenie
+# 🟢 Podstawowe polecenia bash - wprowadzenie
 Tutaj opisanych zostało kilka podstawowych poleceń, które są niezbędnę do poruszania się po katalogach i plikach na naszym komputerze oraz wykonywania podstawowych operacji na nich. Tak zdaję sobie sprawę że jesteś przyzyczajony do pracy z GUI i najchętniej zamknął byś to wszystko i [...] Jednak pocieszę Cię, bo nie jesteś jedyną osobą, która na poczatku przygody z CLI miała takie odczucia. Najtrudniejsze jest zmiana swojego negatywnego nastawienia i przełamenie przekonań że to trudne. Zobaczysz że wraz z praktyką przyjdzie satysfakcja!
 
 ## ls - wyświetl zawartość katalogu
