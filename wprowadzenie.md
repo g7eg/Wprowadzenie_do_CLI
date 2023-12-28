@@ -96,9 +96,62 @@ tree
 ```
 Pozwala wyświetlić strukturę katalogu w którym obecnie się znajdujemy.
 ![tree](img/tree.png)
+## touch - tworzy nowy pusty plik
+touch - pozwala utworzyć nowy pusty plik.
+Polecenie touch tworzy domyślnie plik w miejscu gdzie się aktualnie znajdujemy.
+Podając jednak ścieżkę wraz z nazwą pliku do miejsca gdzie chcemy utworzyć plik nie ma konieczności przechodzenia tam za pomocą polecenie cd.
+```bash
+touch plik_1.txt
+```
+![touch](img/touch.png)
 ## mkdir - utwórz nowy katalog
-## mv - przenieś plik
+mkdir - make directory
+
+Tworzy nowy katalog.
+
+Po poleceniu mkdir należy podać nazwę tworzonego katlogu, np:
+```bash
+mkdir nowyFolder
+```
+![mkdir](img/mkdir.png)
+## mv - przenieś plik, przenieś katalog z zawartością, zmień nazwę pliku
+mv - move
+Polcenie mv pozwala przenieść plik z katalogu do innego katalogu. Pozwala różnież przenisć cały katalog wraz z jego zawartością w inne miejsce. Polcenie mv pozwala również w szybki sposób zamienić nazwy plików.
+### Przenieś plik:
+```bash
+mv plik_1.txt nowyFolder/ 
+```
+![mv_file](img/mv_file.png)
+
+### Przenieś katalog:
+```bash
+mv nowyFolder/ kolejnyFolder/ 
+```
+![mv_dir](img/mv_dir.png)
+
+### Zmiana nazwy pliku:
+```bash
+mv plik_1.txt plik_2.txt 
+```
+Tak naprawdę tworzy nowy plik o nowej nazwie, kopiuje jego zawartpść a następnie usuwa stary plik:
+
+![mv_rename](img/mv_rename.png)
+
 ## rm - usuń plik lub katalog
+### Usunięcie pliku:
+```bash
+rm plik_1.txt
+```
+![Alt text](img/rm_file.png)
+### Usunięcie katalogu wraz z jego zawartością:
+Do usunięcia katalogu waraz z jego zawatością należy użyć dodatkowej rozszeżonego polecenia.
+Takie rozszerzenie nazywane jest opcją.
+W tym przypadku plecenie będzie wyglądało następująco:
+```bash
+rm -R nowyFolder
+```
+![rm_dir](img/rm_dir.png)
+
 ## clear - wyczyść okno terminalu
 # Dodatkowe komendy
 
