@@ -78,6 +78,12 @@ cd example
 W przykładze wywołano wczesniej ls w celu wylistowania dostępnych plików i katalogów. Następnie podano polcenie zmiany katalogu cd i nazwę katalogu.
 
 ![cd](img/cd.png)
+### Powrót do porzedniego katalogu
+Jeżeli pomyślisz się i będzies chciał powrócic do poprzedniego katalogu, a jego ściezka jest skomplikowana. Możesz wykorzystać polecenie:
+```bash
+cd -
+```
+Spowoduje to przeniesienie do poprzedniego katalogu z którzego 'przyszedłeś'.
 
 ### TIP!
 ___
@@ -100,6 +106,8 @@ Po wywołaniu wróciliśmy do poprzedniego katalogu.
 [?] Dlaczego po zmiany katalogu na *'example'* i wywołaniu polecenie *ls* nic się nie pojawiło?
 
 ![Alt text](img/ls_cd_cd.gif)
+## UWAGA
+Bardzo prawdopobne że zdaży Ci się wpisać w konsoli polecenie *cd* bez żadnych dostakowych argumentów. Spowoduje to przejście do katalogu głównego naszego systemu operacyjnego. Po wywołaniu polecenie *ls* wyświetlone zostaną wszystkie katalogi systemowe. Spowoduje to zapewne spory dyskomfort i konsternację. W takim wypadku należy przejść do katalogu w którym będziemy wcześniej pracowaliśmy. Dokonujemt tego w naszym przpadku za pomocą polecenie *cd /workspaces/Wprowadzenie_do_CLI*.
 ## pwd - wyświetl ścieżkę do obecnego katalogu
 pwd - print working directory 
 ```bash
