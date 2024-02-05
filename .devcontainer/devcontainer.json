@@ -3,6 +3,12 @@
 //Install extensions
 "extensions": [
     "ms-python.python",
-    "llvm-vs-code-extensions.vscode-clangd"
+    "llvm-vs-code-extensions.vscode-clangd",
+    "ms-vscode.cpptools",
+    "ms-vscode.cpptools-extension-pack",
+    "twxs.cmake",
+    "ms-vscode.cmake-tools",
+    "vscode-icons-team.vscode-icons"
+
 ]
 }
