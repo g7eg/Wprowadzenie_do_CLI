@@ -1,0 +1,8 @@
+{
+	"files.exclude": {
+		"**/.check": true,
+		"**/.task_tests": true,
+        "**/.devcontainer": true,
+        "**/.vscode": true
+	}
+}
