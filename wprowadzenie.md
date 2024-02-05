@@ -1,10 +1,14 @@
+[Wróć do README](./README.md)
 
+___
 # 🔵 Wprowadzenie do poleceń - bash
 Poniżej zostały opisane polecenie pozwalające w postawowym zakresie dokonać operacji na plikach i katalogach za pomocą CLI.
 
 
 ## Zanim rozpoczniemy pracę:
-Na samym początku należy uruchomić środowisko Codespace logując się przy tym na swoje konto GitHub.
+Na samym początku należy uruchomić środowisko Codespace logując się przy tym na swoje konto GitHub i klikając w zielony przycisk <> Code w udostępnionym repozytorium, a następnie wybierając zakładkę Codespaces i Create codespace on main.
+
+![Alt text](img/run_codespace.png)
 
 Po jego uruchmieniu upewnij się że w dolnej części okna przeglądarki znajduje się Terminal.
 
@@ -16,12 +20,17 @@ Powinieneś zauważyć w oknie terminalu który otowrzy się w dolnej części e
 
 Najważniejszy w tym wszystkim jest znak '$' nazywany znakiem zachęty.
 
-Oznacza to że wszystko zostało uruchomione poprawnie i możemy przystąpić do dalszej pracy!
-
 Wszystkie polecenia będzie wpisywać po znaku zachęty.
 
+Oznacza to że wszystko zostało uruchomione poprawnie i możemy przystąpić do dalszej pracy!
+
+
 # 🟢 Podstawowe polecenia bash - wprowadzenie
-Tutaj opisanych zostało kilka podstawowych poleceń, które są niezbędnę do poruszania się po katalogach i plikach na naszym komputerze oraz wykonywania podstawowych operacji na nich. Tak zdaję sobie sprawę że jesteś przyzyczajony do pracy z GUI i najchętniej zamknął byś to wszystko i [...] Jednak pocieszę Cię, bo nie jesteś jedyną osobą, która na poczatku przygody z CLI miała takie odczucia. Najtrudniejsze jest zmiana swojego negatywnego nastawienia i przełamenie przekonań że to trudne. Zobaczysz że wraz z praktyką przyjdzie satysfakcja!
+Tutaj opisanych zostało kilka podstawowych poleceń, które są niezbędnę do poruszania się po katalogach i plikach na naszym komputerze oraz wykonywania podstawowych operacji na nich. Tak zdaję sobie sprawę że jesteś przyzyczajony do pracy z GUI i najchętniej zamknął byś to wszystko i [...]. 
+
+Jednak pocieszę Cię, bo nie jesteś jedyną osobą, która na poczatku przygody z CLI miała takie odczucia. Najtrudniejsze jest zmiana swojego negatywnego nastawienia i przełamenie przekonań że to trudne. Zobaczysz że wraz z praktyką przyjdzie satysfakcja!
+
+# Zacznimy więc od czegoś prostego i jednocześnie przydatnego.
 
 ## ls - wyświetl zawartość katalogu
 ls - list. Wpisanie tego polecenia w takiej formie:
@@ -31,11 +40,17 @@ ls
 Wyświetli nam listę elementów znadujących się w katalogu w którym się obecnie znajdujemy.
 
 ![Przykład ls](img/ls.png)
-Te same informacje możesz znaleźć w GUI - eksploratorze plików. Jednak o GUI na chwilę zapominamy.
+Te same informacje możesz znaleźć w GUI - eksploratorze plików. 
 
 <img src="img/drzewko.png"  height="100" />
 
+Jednak o GUI na chwilę zapominamy. 
+
+Ilość elementów wyświetlonych u Ciebie może się różnić względem tego co widzisz na screenach. Wynika to z tego że jestem w trakcie opracowywania specjalnie dla Ciebie tych właśnie materiałów.
+
 Polecenie ls możemy wywołac jeszcze z pewnymi parametrami.
+Parametry to dołączone w tej samej linii (po głównej komendzie) symbole, zazwyczaj zaczynają się od znaku '-'.
+
 Najważniejszymi i naczęściej wykorzystywanymi są:
 
 ```bash
@@ -52,6 +67,8 @@ Pozwala wyświetlić listę plików z bardziej szczegółowym opisem.
 
 ![ls-l](img/ls-l.png)
 
+Zazwyczaj polecenia posiadają wiele parametrów zmieniających lub rozszerzajacych działanie danego polecenia. Wypisując je wszystkie tutaj, miał byś sporo lektury do przeczytania i zapewne pominął byś to. Warto więc zgłębić tą wiedzę samodzielnie.
+
 ## cd - przejdź do katalogu
 change directory - Pozwala przejść do katalogu.
 Podajemy polecenie cd a następnie folder do którego chcemy przejść.
@@ -62,13 +79,15 @@ W przykładze wywołano wczesniej ls w celu wylistowania dostępnych plików i k
 
 ![cd](img/cd.png)
 
-#### TIP!
+### TIP!
 ___
 Podczas wpisywania np nazwy katalogu nie musisz wpisać jej w całości. Wystarczy że wpiszesz pierwszą literę katalogu (np. e jak katalog example) i naciśniesz klawisz TAB (tabulator). Terminal sam uzupełni nazwę katalogu. 
 
 Jeżeli katalogów jest więcej zaczynających swją nazwę od 'e', terminal wświetli ponownie listę katalogów, które spałniają to kryterium. Wprowadzając kolejną literę i ponownie wciskając klawisz TAB nazwa zostanie uzupełniona automatycznie.
 
-Wiemy już jakprzechodzić z katalogu do kolejnego katalogu.
+___
+
+Wiemy już jak przechodzić z katalogu do kolejnego katalogu.
 Natomiast co jeżeli popełnimy błąd i chcemy powrócić do wcześneijszego katalogu?
 
 W takiej sytuacji możemy wykorzystać również polcenie cd ale z dwoma znakmami '..'
@@ -153,10 +172,26 @@ rm -R nowyFolder
 ![rm_dir](img/rm_dir.png)
 
 ## clear - wyczyść okno terminalu
+Pozwolę sobie nie komentować tego polecenia, przetestuj je samodzielnie 😌.
 # Dodatkowe komendy
 
-## code - otwiera edycję pliku w VSCode - jeśtli jest zainstalowny
+## code - otwiera edycję pliku w VSCode
+Wymaganiem jest to by VSCode był zaisntalowany na komputerze a zmięnne środowiskowe były poprawnie skonfigurowane (zazwyczaj dzieje się to automatycznie podczas instalacji VSCode).
 
-## Wyposażeni w podstawową wiedzę możemy rozpocząć praktyczną przygodę!
-Zapraszam do 
-[samouczeka](./samouczek.md)
+Cała komenda składa się z polecenia 'code' oraz nazwy pliku który chcemy otworzyć.
+```bash
+code plik_1.txt
+```
+W przypadku gdy plik o danej nazwie nie istnieje, a możemy to sprawdzić wywoułąc wcześniej polcenie 'ls'. Plik ten zostanie utworzony.
+
+Zauważ że w w/w przykładzie, plik_1.txt znajduje się katalogu w którym obecnie się znajdujemy. Jednak zamiast pliku można podać ścieżkę do pliku, bez konieczności przechodzenia do tego katalogu.
+```bash
+code nowyFolder/plik_1.txt
+```
+![plik_1_txt](img/plik_1_txt.png)
+
+
+
+# Wyposażeni w podstawową wiedzę możemy rozpocząć praktyczną przygodę!
+Zapraszam więc do praktyki i realizacji zadań z 
+[samouczka](./samouczek.md)

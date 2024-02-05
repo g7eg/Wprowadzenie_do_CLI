@@ -9,7 +9,7 @@ ___
 Niektóre z zawartych tu informacji stanowią bardzo duże uproszczenie opisanych zagadnień. Zabieg ten jest celowy i ma za zadanie zbliżyć Cię do poruszanych tu informacji. Wraz z dalszą nauką bardziej szczegółowe informacje będą uzupełniać wiedzą zdobytą na początkowym etapie.
 
 ## CLI - Comand Line Interface
-CLI - Comand Line Interface to narzędzie programistyczne pozwalające na wykonanie wielu czynności na komputerze za pomocą odpowiednich komend. Zazwyczaj jako uzytkowicy kompterów PC przyzwyczajeni jesteśmy do pracy z komputerem za pomocą graficznego interfejsu (GUI - Graphical User Interface). Często skomplikowane procedury klikologii w celu wykonania jakiś czynności mozna zastąpić jedna linią polecenia. Zdazają się równiez czynności których nie da się wyklikać. Z tego względu programiści zazwyczaj preferują wykorzystanie CLI jako jednego z narzędzi do programowania.
+CLI - Comand Line Interface to wbudowane w system operacyjny narzędzie programistyczne pozwalające na wykonanie wielu czynności na komputerze za pomocą odpowiednich komend. Zazwyczaj jako uzytkowicy kompterów PC przyzwyczajeni jesteśmy do pracy z komputerem za pomocą graficznego interfejsu (GUI - Graphical User Interface). Często skomplikowane procedury klikologii w celu wykonania jakiś czynności można zastąpić jedna linią polecenia. Zdażają się również czynności których nie da się wyklikać. Z tego względu programiści zazwyczaj preferują wykorzystanie CLI jako jednego z narzędzi do programowania.
 
 Część czynności, które będziemy wykonywać w tym kursie można również wyklikać, jednak zachęcam i jednocześnie zalecam powstrzymać się przed tym i skorzystać z komend opisanych w materiałach. Po pewnym czasie zauważysz że napisanie prostej komendy zajmuje zdecydowanie mnej czasu niż klikanie.
 
@@ -22,12 +22,15 @@ Windows'owe CMD/ PowerShell jak i Unixowy Terminal to nic innego jak programy po
 Generalnie będziemy korzystać w tym kursie z systemu Unix'owego i wszystkie poznane komendy będą również działać na innych wesjach i dystrybucjach systemu Unixowego (np Linux, macOS, Android) jak i w PowerShell Windowsa. Po więcej szczegółów odsyłam do interntu, przykładowe róznice w komendach można znaleźć np tutaj: [linux-vs-windows-commands](https://www.geeksforgeeks.org/linux-vs-windows-commands/).
 
 #### SHELL - powłoka
-Shell (powłoka) - to nic innego jak interface wiersza poleceń (w uproszczeniu to element który wykonuje coś po wpisaniu przez użtkonika komendy np uruchomienie programu). Możemy wyróżnic kilka różniących się miedzy sobą powłok np: bash, ksh, csh, tcsh, zsh. Nie wgłębiając się w temat, na chwilę obecną powinieneś wiedziec to że jest coś takiego jak powłoka i jest ich kilka typów. My natomiast skupimy się na powłocje bash.
+Shell (powłoka) - to nic innego jak interface wiersza poleceń łączący hardware i temrinal (w uproszczeniu to element który wykonuje coś po wpisaniu przez użtkonika komendy np uruchomienie programu). Możemy wyróżnic kilka różniących się miedzy sobą powłok np: bash, ksh, csh, tcsh, zsh. Nie wgłębiając się w temat, na chwilę obecną powinieneś wiedziec to że jest coś takiego jak powłoka i jest ich kilka typów. My natomiast skupimy się na powłocje bash.
 
 #### Terminal
 Terminal to po prostu program, który obsługuje daną powłokę. Pozwala na uruchomienie powłoki i komunikacji użytkonika z nią. To w nim wpisujemy polecenia, które są wykonywane przez Shell.
 
 Jeżeli chodzi o terminal należy pamiętać że jest to jedno z narzędzi, które można dosyć mocno dostosować pod swoje potrzeby. Z tego względu część informacji jak i sposób ich wyświetlania może się róznić w zależności od ustawień.
+
+![img not found](img/image.png)
+Źródło: [LINK](https://medium.com/@Abhishek_kumar_/console-vs-terminal-vs-shell-difference-betweeen-them-b9acd3270dae)
 ___
 ## Startujemy!
 
