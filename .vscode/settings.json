@@ -1,4 +1,5 @@
 {
+	"workbench.editorAssociations": {"*.md": "vscode.markdown.preview.editor"},
 	"workbench.colorTheme": "GitHub Dark Default",
 	"workbench.sideBar.location": "right",
 	"files.exclude": {

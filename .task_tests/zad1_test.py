@@ -1,4 +1,6 @@
 import os.path
+from os import listdir
+import re
 
 pwd = '/workspaces/Wprowadzenie_do_CLI'
 path1 = f'{pwd}/przedmioty'
@@ -43,8 +45,23 @@ if __name__ == '__main__':
         print('🔴 Katalog prowadzacy nie istnieje.')
         print('Sprawdź czy katalog został utworzony w odpowiednim miejscu.')
         exit(1)
+    
+    list_of_id_match = []
+    for dir in os.listdir(path3):
+        x = re.search(r"^\d{6}$", dir)
+        if x:
+            print('🟢 Katalog z Twoim nr indeksu istnieje i znajduje się w katalogu studenci.')
+            list_of_exist_files.append(dir)
+            list_of_id_match.append(dir)
+    if list_of_id_match == []:
+        print('🔴 Katalog z Twoim nr indeksu nie istnieje.')
+        print('Sprawdź czy katalog został utworzony w odpowiednim miejscu.')
+        exit(1)
 
-    if len(list_of_exist_files) == 4:
+
+    if len(list_of_exist_files) == 5:
         print('_'*30)
         print('🟢 Wszystkie katalogi zostały utworzone poprawnie.')
         print('Możesz przystąpić do kolejnego zadania.')
+    else:
+        print('🟡 Niektóre z wymagaych kroków nie zostały spełnione poprawnie. Dokonaj stosonej modyfikacji i uruchom test raz jeszcze.')
