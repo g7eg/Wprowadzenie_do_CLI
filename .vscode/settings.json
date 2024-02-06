@@ -7,6 +7,7 @@
         "**/.devcontainer": true,
         "**/.vscode": true,
 		"**/.gitignore": true,
-		"**/.img": true
+		"**/.img": true,
+		"LICENSE": true
 	}
 }
