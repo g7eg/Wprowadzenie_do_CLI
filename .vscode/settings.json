@@ -5,6 +5,8 @@
 		"**/.check": true,
 		"**/.task_tests": true,
         "**/.devcontainer": true,
-        "**/.vscode": true
+        "**/.vscode": true,
+		"**/.gitignore": true,
+		"**/.img": true
 	}
 }
