@@ -1,15 +1,16 @@
 {
-    "postStartCommand": "bash /workspaces/Wprowadzenie_do_CLI/.check/init.sh",
 
-//Install extensions
-"extensions": [
-    "ms-python.python",
-    "llvm-vs-code-extensions.vscode-clangd",
-    "ms-vscode.cpptools",
-    "ms-vscode.cpptools-extension-pack",
-    "twxs.cmake",
-    "ms-vscode.cmake-tools",
-    "vscode-icons-team.vscode-icons"
+    //Install extensions
+    "extensions": [
+        "ms-python.python",
+        "llvm-vs-code-extensions.vscode-clangd",
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "twxs.cmake",
+        "ms-vscode.cmake-tools",
+        "vscode-icons-team.vscode-icons"
 
-]
+],
+    //Initial scripts
+    "postStartCommand": "echo 'source /workspaces/Wprowadzenie_do_CLI/.check/init.sh' >> /home/codespace/.bashrc"
 }
