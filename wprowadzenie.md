@@ -8,7 +8,7 @@ Poniżej zostały opisane polecenie pozwalające w postawowym zakresie dokonać 
 ## Zanim rozpoczniemy pracę:
 Na samym początku należy uruchomić środowisko Codespace logując się przy tym na swoje konto GitHub i klikając w zielony przycisk <> Code w udostępnionym repozytorium, a następnie wybierając zakładkę Codespaces i Create codespace on main.
 
-![Alt text](img/run_codespace.png)
+![Alt text](./.img/run_codespace.png)
 
 Po jego uruchmieniu upewnij się że w dolnej części okna przeglądarki znajduje się Terminal.
 
@@ -16,7 +16,7 @@ Jeżeli go nie widzisz z menu wybierz ikonę <b> ≡ (ikona menu hamburgera)</b>
 
 Powinieneś zauważyć w oknie terminalu który otowrzy się w dolnej części ekranu, coś podobnego do:
 
-![Przykładowy zrzut erkanu z terminalu](./img/terminal.png)
+![Przykładowy zrzut erkanu z terminalu](./.img/terminal.png)
 
 Najważniejszy w tym wszystkim jest znak '$' nazywany znakiem zachęty.
 
@@ -39,10 +39,10 @@ ls
 ```
 Wyświetli nam listę elementów znadujących się w katalogu w którym się obecnie znajdujemy.
 
-![Przykład ls](img/ls.png)
+![Przykład ls](./.img/ls.png)
 Te same informacje możesz znaleźć w GUI - eksploratorze plików. 
 
-<img src="img/drzewko.png"  height="100" />
+<img src="./.img/drzewko.png"  height="100" />
 
 Jednak o GUI na chwilę zapominamy. 
 
@@ -58,14 +58,14 @@ ls -a
 ```
 Pozwala wyświetlić wszystkie ukryte pliki w katalogu.
 
-![ls-a](img/ls-a.png)
+![ls-a](./.img/ls-a.png)
 
 ```bash
 ls -l
 ```
 Pozwala wyświetlić listę plików z bardziej szczegółowym opisem.
 
-![ls-l](img/ls-l.png)
+![ls-l](./.img/ls-l.png)
 
 Zazwyczaj polecenia posiadają wiele parametrów zmieniających lub rozszerzajacych działanie danego polecenia. Wypisując je wszystkie tutaj, miał byś sporo lektury do przeczytania i zapewne pominął byś to. Warto więc zgłębić tą wiedzę samodzielnie.
 
@@ -77,7 +77,7 @@ cd example
 ```
 W przykładze wywołano wczesniej ls w celu wylistowania dostępnych plików i katalogów. Następnie podano polcenie zmiany katalogu cd i nazwę katalogu.
 
-![cd](img/cd.png)
+![cd](./.img/cd.png)
 ### Powrót do porzedniego katalogu
 Jeżeli pomyślisz się i będzies chciał powrócic do poprzedniego katalogu, a jego ściezka jest skomplikowana. Możesz wykorzystać polecenie:
 ```bash
@@ -105,7 +105,7 @@ Po wywołaniu wróciliśmy do poprzedniego katalogu.
 
 [?] Dlaczego po zmiany katalogu na *'example'* i wywołaniu polecenie *ls* nic się nie pojawiło?
 
-![Alt text](img/ls_cd_cd.gif)
+![Alt text](./.img/ls_cd_cd.gif)
 ## UWAGA
 Bardzo prawdopobne że zdaży Ci się wpisać w konsoli polecenie *cd* bez żadnych dostakowych argumentów. Spowoduje to przejście do katalogu głównego naszego systemu operacyjnego. Po wywołaniu polecenie *ls* wyświetlone zostaną wszystkie katalogi systemowe. Spowoduje to zapewne spory dyskomfort i konsternację. W takim wypadku należy przejść do katalogu w którym będziemy wcześniej pracowaliśmy. Dokonujemt tego w naszym przpadku za pomocą polecenie *cd /workspaces/Wprowadzenie_do_CLI*.
 ## pwd - wyświetl ścieżkę do obecnego katalogu
@@ -115,14 +115,14 @@ pwd
 ```
 Jak widać na screenie poniżej została wyprintowana ścieżka do obecnego katalogu.
 
-![pwd](img/pwd.png)
+![pwd](./.img/pwd.png)
 ## tree - wyświetl strukturę katalogu
 tree - print the tree sctructure of directory
 ```bash
 tree
 ```
 Pozwala wyświetlić strukturę katalogu w którym obecnie się znajdujemy.
-![tree](img/tree.png)
+![tree](./.img/tree.png)
 ## touch - tworzy nowy pusty plik
 touch - pozwala utworzyć nowy pusty plik.
 Polecenie touch tworzy domyślnie plik w miejscu gdzie się aktualnie znajdujemy.
@@ -130,7 +130,7 @@ Podając jednak ścieżkę wraz z nazwą pliku do miejsca gdzie chcemy utworzyć
 ```bash
 touch plik_1.txt
 ```
-![touch](img/touch.png)
+![touch](./.img/touch.png)
 ## mkdir - utwórz nowy katalog
 mkdir - make directory
 
@@ -140,7 +140,7 @@ Po poleceniu mkdir należy podać nazwę tworzonego katlogu, np:
 ```bash
 mkdir nowyFolder
 ```
-![mkdir](img/mkdir.png)
+![mkdir](./.img/mkdir.png)
 ## mv - przenieś plik, przenieś katalog z zawartością, zmień nazwę pliku
 mv - move
 Polcenie mv pozwala przenieść plik z katalogu do innego katalogu. Pozwala różnież przenisć cały katalog wraz z jego zawartością w inne miejsce. Polcenie mv pozwala również w szybki sposób zamienić nazwy plików.
@@ -148,13 +148,13 @@ Polcenie mv pozwala przenieść plik z katalogu do innego katalogu. Pozwala ró�
 ```bash
 mv plik_1.txt nowyFolder/ 
 ```
-![mv_file](img/mv_file.png)
+![mv_file](./.img/mv_file.png)
 
 ### Przenieś katalog:
 ```bash
 mv nowyFolder/ kolejnyFolder/ 
 ```
-![mv_dir](img/mv_dir.png)
+![mv_dir](./.img/mv_dir.png)
 
 ### Zmiana nazwy pliku:
 ```bash
@@ -162,14 +162,14 @@ mv plik_1.txt plik_2.txt
 ```
 Tak naprawdę tworzy nowy plik o nowej nazwie, kopiuje jego zawartpść a następnie usuwa stary plik:
 
-![mv_rename](img/mv_rename.png)
+![mv_rename](./.img/mv_rename.png)
 
 ## rm - usuń plik lub katalog
 ### Usunięcie pliku:
 ```bash
 rm plik_1.txt
 ```
-![Alt text](img/rm_file.png)
+![Alt text](./.img/rm_file.png)
 ### Usunięcie katalogu wraz z jego zawartością:
 Do usunięcia katalogu waraz z jego zawatością należy użyć dodatkowej rozszeżonego polecenia.
 Takie rozszerzenie nazywane jest opcją.
@@ -177,7 +177,7 @@ W tym przypadku plecenie będzie wyglądało następująco:
 ```bash
 rm -R nowyFolder
 ```
-![rm_dir](img/rm_dir.png)
+![rm_dir](./.img/rm_dir.png)
 
 ## clear - wyczyść okno terminalu
 Pozwolę sobie nie komentować tego polecenia, przetestuj je samodzielnie 😌.
@@ -196,7 +196,7 @@ Zauważ że w w/w przykładzie, plik_1.txt znajduje się katalogu w którym obec
 ```bash
 code nowyFolder/plik_1.txt
 ```
-![plik_1_txt](img/plik_1_txt.png)
+![plik_1_txt](./.img/plik_1_txt.png)
 
 
 
