@@ -1,4 +1,5 @@
 {
+    "postStartCommand": "bash /workspaces/Wprowadzenie_do_CLI/.check/init.sh",
 
 //Install extensions
 "extensions": [

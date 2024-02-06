@@ -118,20 +118,21 @@ Klikając na strzełeczkę rozwiniesz listę z podpowiedziami.
 </details>
 
 ## Test zadania 1
-W celu weryfikacji czy wykonałeś zadanie 1 poprawnie należy uruchomić skrypt testujący.
-Należy wykonać:
+W celu weryfikacji czy wykonałeś zadanie 1 poprawnie należy wykonać polecenie.
+
+Najpier wykonaj:
 ```bash
 cd /workspaces/Wprowadznie_do_CLI/
 ```
 ,a następnie:
 ```bash
-bash check1.sh
+check_z1
 ```
-
+Wynik weryfikacji uzyskasz w formie raportu wyświetlonego w terminalu.
 
 
 ___
-Zadanie 2
+## Zadanie 2
 Do realizacji zadania nr 2 wymagane jest poprawne wykonanie zadania 1.
 Jeżeli test zwrócił  
 

@@ -181,7 +181,9 @@ rm -R nowyFolder
 
 ## clear - wyczyść okno terminalu
 Pozwolę sobie nie komentować tego polecenia, przetestuj je samodzielnie 😌.
-# Dodatkowe komendy
+#### Poleceń jest zdecydowanie więcej, z tego względu polecam samodzielie zgłębić widzę na ich temat. Możesz to zrobić odwiedzajac stronę z dokumentacją [LINK](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html)
+
+# Dodatkowe komendy która będą nam potrzebne
 
 ## code - otwiera edycję pliku w VSCode
 Wymaganiem jest to by VSCode był zaisntalowany na komputerze a zmięnne środowiskowe były poprawnie skonfigurowane (zazwyczaj dzieje się to automatycznie podczas instalacji VSCode).
