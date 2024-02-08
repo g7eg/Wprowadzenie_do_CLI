@@ -208,7 +208,7 @@ Wynik weryfikacji uzyskasz w formie raportu wyświetlonego w terminalu.
 Krok 1. Wykonaj poprawnie zadanie 1.
 
 Krok 2. Otwórz ponownie plik _raport_zad1.txt_ w katalogu z Twoim nr indesku. Zweryfikuj czy w raporcie znajdują się takie same informaje jak te które otrzymałeś z uruchomienia testów dla Zadania 1.
-Jeżeli tak, super. Jeżli nie, możliwe że zapominałeś przetestować zadanie 1, w takim wypadku odsyłam do akapitu _Test zadania 1_.
+Jeżeli tak, super. Możesz zamknąć plik i przejść do kolejnogo kroku. Jeżli nie, możliwe że zapominałeś przetestować zadanie 1, w takim wypadku odsyłam do akapitu _Test zadania 1_.
 
 Krok 3. W katalogu domyślnym (_/workspaces/Wprowadzenie_do_CLI_) gdzie znajduje się katalog _przedmioty_ utwórz nowy katalog i nazwij go _backups_\_ (tak z podkreśleniem na końcu).
 
