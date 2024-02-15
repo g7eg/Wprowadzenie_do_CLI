@@ -13,5 +13,5 @@
 
 ],
     //Initial scripts
-    "postStartCommand": "echo 'source /workspaces/Wprowadzenie_do_CLI/.check/init.sh' >> /home/codespace/.bashrc"
+    "postStartCommand": "echo 'source ./.check/init.sh' >> /home/codespace/.bashrc"
 }
