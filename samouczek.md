@@ -53,8 +53,8 @@ Krok 2. Wróć do katalogu _przedmioty_. Wyświetl strukturę katalogów.
 
 Krok 3. Zweryfikuj czy wszystko się zgadza zogdnie z Krok 1 - czyli katalog _programowanie_ znajduje się w katalogu _przedmioty_, katalogi _prowadzacy_ oraz _studenci_ są wewnątrz _programowanie_, a katalog z Twoim nr indeksu jest wewnątrz katalogu _studenci_. Jeżeli nie dokonaj stosownych poprawek (usun katalogi i utwórz je jeszcze raz).
 
-Krok 4. Przejdź do katalogu studenci a następnie do katalogu z Twoim nr indeku (no chyba że wiesz i zrobić to bez przechodzenia tam? To zrób bez przechodzenia w to mejsce) i utwórz w nim plik o nazwie _zad1.txt_. Upewnij się że plik nazywa się poprawnie!
-Wpisz w nim swój ulubiony cytat z filmu, książki, piosenki, dowolnego źródła.
+Krok 4. Przejdź do katalogu studenci a następnie do katalogu z Twoim nr indeku (no chyba że wiesz jak zrobić to bez przechodzenia tam? To zrób bez przechodzenia w to mejsce) i utwórz w nim plik o nazwie _zad1.txt_. Upewnij się że plik nazywa się poprawnie!
+Wpisz w nim swój ulubiony cytat z filmu, książki czy piosenki .
 
 Zapisz zmianę i zakmnik plik.
 
