@@ -3,7 +3,7 @@ from os import listdir
 import re
 # GitHub.copilot-chat
 # GitHub.copilot
-pwd = '/workspaces/Wprowadzenie_do_CLI'
+pwd = './'
 path1 = f'{pwd}/przedmioty'
 path2 = f'{pwd}/przedmioty/programowanie'
 path3 = f'{pwd}/przedmioty/programowanie/studenci'
