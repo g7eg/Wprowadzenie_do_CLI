@@ -1,4 +1,5 @@
 {
+
     "workbench.editorAssociations": { "*.md": "vscode.markdown.preview.editor" },
     "workbench.colorTheme": "GitHub Dark Default",
     "workbench.sideBar.location": "right",
@@ -9,13 +10,15 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
-        "**/.check": false,
+        "**/.check": true,
         "**/.task_tests": true,
         "**/.devcontainer": true,
-        "**/.vscode": false,
+        "**/.vscode": true,
         "**/.gitignore": true,
         "**/.img": true,
         "LICENSE": true
     },
-    "explorerExclude.backup": {}
+    "explorerExclude.backup": {},
+
+	
 }
