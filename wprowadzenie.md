@@ -17,6 +17,8 @@ Jeżeli go nie widzisz z menu wybierz ikonę <b> ≡ (ikona menu hamburgera)</b>
 Powinieneś zauważyć w oknie terminalu który otowrzy się w dolnej części ekranu, coś podobnego do:
 
 ![Przykładowy zrzut erkanu z terminalu](./.img/terminal.png)
+lub 
+![Przyklad](./.img/example_workspace_terminal.png)
 
 Najważniejszy w tym wszystkim jest znak '$' nazywany znakiem zachęty.
 

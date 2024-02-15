@@ -1,7 +1,8 @@
 import os.path
 from os import listdir
 import re
-
+# GitHub.copilot-chat
+# GitHub.copilot
 pwd = '/workspaces/Wprowadzenie_do_CLI'
 path1 = f'{pwd}/przedmioty'
 path2 = f'{pwd}/przedmioty/programowanie'

@@ -5,6 +5,7 @@ testnum=1
 pathz1=./.task_tests/zad1_test.py
 
 if [ -f $pathz1 ]; then
+    code --list-extensions > ./.task_tests/z1_extensions.txt
     python3 $pathz1
 else
     echo 'Test do zadanie' $testnum 'nie istnieje. Skontaktuj się z prowadzącym.'

@@ -16,23 +16,23 @@ Z powyższego akapitu należy wyciągnąć następujące wnioski:
 
 ## Zadanie 1
 
-Zapamiętaj że wszystkie operacja które bedziemy wykonywać robimy w katalogu domyślnym: _/workspaces/Wprowadzenie_do_CLI_. Dlatego też przed uruchomieniem polecenia upewnij się że przed (po lewej stronie) znakiem zachęty _$_ znajduje się freagment ścieżki _/workspaces/Wprowadzenie_do_CLI_.
+Zapamiętaj że wszystkie operacja które bedziemy wykonywać robimy w katalogu domyślnym (_workspaces/zadanie1-[userName]_) u mnie jest to: _/workspaces/zadanie1-g7eg_. Dlatego też przed uruchomieniem polecenia upewnij się że przed (po lewej stronie) znakiem zachęty _$_ znajduje się freagment ścieżki _workspaces/zadanie1-g7eg_.
 
 Pamięteż że w każdej chwilii możesz sprawdzić ścieżkę do akutalnego katalogu gdzie sie znajdujesz, wykonując polecenie _pwd_.
 
-Jeżeli wpiszesz przez przypadek polecenie _cd_ bez podania jakiejkolwiek ścieżki i przeniesie Cię do katalogu głównego naszego systemu, nie przejmuj się tym. Możesz wrócić do poprzedniego katalogu wykonując polecenie '_cd -_' lub _cd /workspaces/Wprowadzenie_do_CLI_.
+Jeżeli wpiszesz przez przypadek polecenie _cd_ bez podania jakiejkolwiek ścieżki i przeniesie Cię do katalogu głównego naszego systemu, nie przejmuj się tym. Możesz wrócić do poprzedniego katalogu wykonując polecenie '_cd -_' lub _cd /workspaces/zadanie1-[userName]_.
 
 Dla pewności przed rozpoczęciem pracy wykonaj polecenie:
 
 ```bash
-cd /workspaces/Wprowadzenie_do_CLI
+cd workspaces/zadanie1-[userName]
 ```
 
 ### UWAGA! Jeżeli czytając treść polecenia uznasz że jest to na chwilę obecną zbyt trudne i i nie ogarniasz tego tematu, nie przejmuj się tylko zernij do podpowidzi które znajdują się poniżej treści zadania (ps. trzeba kliknąć w strzełeczkę aby się pojawiły 😉.
 
 ---
 
-Krok 1. W katalogu domyślnym (_/workspaces/Wprowadzenie_do_CLI_) gdzie obecnie powinieneś się znajować, utwórz katalog nazywający się:
+Krok 1. W katalogu domyślnym (_workspaces/zadanie1-[userName]_) gdzie obecnie powinieneś się znajować, utwórz katalog nazywający się:
 
 -   _przedmioty_
 
@@ -74,11 +74,11 @@ Klikając na strzełeczkę rozwiniesz listę z podpowiedziami.
 pwd
 ```
 
-jeżeli zwóciona ścieżka to /workspaces/Wprowadzenie_do_CLI znaczy ze jesteś w odpowiednim miejscu.
+jeżeli zwóciona ścieżka to _workspaces/zadanie1-[userName]_ znaczy ze jesteś w odpowiednim miejscu.
 Jeżeli nie to wróć do tego katalogu wpisując:
 
 ```bash
-cd /workspaces/Wprowadzenie_do_CLI
+cd _workspaces/zadanie1-[userName]
 ```
 
 1. Wykorzystaj polecenie :
@@ -153,10 +153,10 @@ cd studenci
 mkdir 123123
 ```
 
-12. Wróć do katalogu _/workspaces/Wprowadzenie_do_CLI_
+12. Wróć do katalogu __workspaces/zadanie1-[userName]_
 
 ```bash
-cd /workspaces/Wprowadzenie_do_CLI
+cd _workspaces/zadanie1-[userName]
 ```
 
 13. Wykorzystaj polecenie
@@ -176,6 +176,7 @@ cd /przedmiot/programowanie/studenci/123123
 ```bash
 code zad1.txt
 ```
+16. Wpisz w oknie edycji pliku treśći zapisz zmiany. Przydatnym do tego celu jest skrót klawiszowy Ctrl + S.
 
 </details>
 
@@ -186,7 +187,7 @@ W celu weryfikacji czy wykonałeś zadanie 1 poprawnie należy wykonać poleceni
 Najpier wykonaj:
 
 ```bash
-cd /workspaces/Wprowadznie_do_CLI/
+cd workspaces/zadanie1-[userName]
 ```
 
 ,a następnie:
@@ -210,7 +211,7 @@ Krok 1. Wykonaj poprawnie zadanie 1.
 Krok 2. Otwórz ponownie plik _raport_zad1.txt_ w katalogu z Twoim nr indesku. Zweryfikuj czy w raporcie znajdują się takie same informaje jak te które otrzymałeś z uruchomienia testów dla Zadania 1.
 Jeżeli tak, super. Możesz zamknąć plik i przejść do kolejnogo kroku. Jeżli nie, możliwe że zapominałeś przetestować zadanie 1, w takim wypadku odsyłam do akapitu _Test zadania 1_.
 
-Krok 3. W katalogu domyślnym (_/workspaces/Wprowadzenie_do_CLI_) gdzie znajduje się katalog _przedmioty_ utwórz nowy katalog i nazwij go _backups_\_ (tak z podkreśleniem na końcu).
+Krok 3. W katalogu domyślnym (_workspaces/zadanie1-[userName]_) gdzie znajduje się katalog _przedmioty_ utwórz nowy katalog i nazwij go _backups_\_ (tak z podkreśleniem na końcu).
 
 Krok 4. W katalogu backup\_ uwtórz katalog _V1_\_.
 

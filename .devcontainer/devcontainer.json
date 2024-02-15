@@ -9,9 +9,27 @@
         "twxs.cmake",
         "ms-vscode.cmake-tools",
         "vscode-icons-team.vscode-icons",
-        "ms-python.pylint"
+        "ms-python.pylint",
+        "GitHub.vscode-github-actions"
+        ],
 
-],
+    // // CS50 config
+    // "settings": {
+    //     "C_Cpp.autocomplete": "Disabled",
+    //     "C_Cpp.intelliSenseEngine": "Disabled",
+    //     "javascript.suggest.enabled": false,
+    //     "python.autoComplete.showAdvancedMembers": false,
+    //     "scm.countBadge": "off",
+    //     "terminal.integrated.profiles.linux": {
+    //     "bash (login)": {
+    //         "path": "bash",
+    //         "args": ["-l"]
+    //     }
+    //     }
+    // },
+        
     //Initial scripts
     "postStartCommand": "echo 'source ./.check/init.sh' >> /home/codespace/.bashrc"
+
+    
 }
