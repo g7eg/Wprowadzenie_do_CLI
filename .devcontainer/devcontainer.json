@@ -8,7 +8,7 @@
         "ms-vscode.cpptools-extension-pack",
         "twxs.cmake",
         "ms-vscode.cmake-tools",
-        "vscode-icons-team.vscode-icons",
+        // "vscode-icons-team.vscode-icons",
         "ms-python.pylint",
         "GitHub.vscode-github-actions"
         ],

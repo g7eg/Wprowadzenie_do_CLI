@@ -1,0 +1,16 @@
+Rozszerzenia zainstalowane w lokalizacji Codespaces: literate rotary-phone:
+GitHub.codespaces
+GitHub.github-vscode-theme
+github.vscode-github-actions
+GitHub.vscode-pull-request-github
+llvm-vs-code-extensions.vscode-clangd
+MS-CEINTL.vscode-language-pack-pl
+ms-python.debugpy
+ms-python.pylint
+ms-python.python
+ms-python.vscode-pylance
+ms-vscode.cmake-tools
+ms-vscode.cpptools
+ms-vscode.cpptools-extension-pack
+ms-vscode.cpptools-themes
+twxs.cmake
