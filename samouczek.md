@@ -16,23 +16,23 @@ Z powyższego akapitu należy wyciągnąć następujące wnioski:
 
 ## Zadanie 1
 
-Zapamiętaj że wszystkie operacja które bedziemy wykonywać robimy w katalogu domyślnym (_workspaces/zadanie1-[userName]_) u mnie jest to: _/workspaces/zadanie1-g7eg_. Dlatego też przed uruchomieniem polecenia upewnij się że przed (po lewej stronie) znakiem zachęty _$_ znajduje się freagment ścieżki _workspaces/zadanie1-g7eg_.
+Zapamiętaj że wszystkie operacja które bedziemy wykonywać robimy w katalogu domyślnym (_workspaces/wprowadzenie-do-cli-[userName]_) u mnie jest to: _/workspaces/wprowadzenie-do-cli-g7eg_. Dlatego też przed uruchomieniem polecenia upewnij się że przed (po lewej stronie) znakiem zachęty _$_ znajduje się freagment ścieżki _workspaces/wprowadzenie-do-cli-g7eg_.
 
 Pamięteż że w każdej chwilii możesz sprawdzić ścieżkę do akutalnego katalogu gdzie sie znajdujesz, wykonując polecenie _pwd_.
 
-Jeżeli wpiszesz przez przypadek polecenie _cd_ bez podania jakiejkolwiek ścieżki i przeniesie Cię do katalogu głównego naszego systemu, nie przejmuj się tym. Możesz wrócić do poprzedniego katalogu wykonując polecenie '_cd -_' lub _cd /workspaces/zadanie1-[userName]_.
+Jeżeli wpiszesz przez przypadek polecenie _cd_ bez podania jakiejkolwiek ścieżki i przeniesie Cię do katalogu głównego naszego systemu, nie przejmuj się tym. Możesz wrócić do poprzedniego katalogu wykonując polecenie '_cd -_' lub _cd /workspaces/wprowadzenie-do-cli-[userName]_.
 
 Dla pewności przed rozpoczęciem pracy wykonaj polecenie:
 
 ```bash
-cd workspaces/zadanie1-[userName]
+cd workspaces/wprowadzenie-do-cli-[userName]
 ```
 
 ### UWAGA! Jeżeli czytając treść polecenia uznasz że jest to na chwilę obecną zbyt trudne i i nie ogarniasz tego tematu, nie przejmuj się tylko zernij do podpowidzi które znajdują się poniżej treści zadania (ps. trzeba kliknąć w strzełeczkę aby się pojawiły 😉.
 
 ---
 
-Krok 1. W katalogu domyślnym (_workspaces/zadanie1-[userName]_) gdzie obecnie powinieneś się znajować, utwórz katalog nazywający się:
+Krok 1. W katalogu domyślnym (_workspaces/wprowadzenie-do-cli-[userName]_) gdzie obecnie powinieneś się znajować, utwórz katalog nazywający się:
 
 -   _przedmioty_
 
@@ -84,11 +84,11 @@ Klikając na strzełeczkę rozwiniesz listę z podpowiedziami.
 pwd
 ```
 
-jeżeli zwóciona ścieżka to _workspaces/zadanie1-[userName]_ znaczy ze jesteś w odpowiednim miejscu.
+jeżeli zwóciona ścieżka to _workspaces/wprowadzenie-do-cli-[userName]_ znaczy ze jesteś w odpowiednim miejscu.
 Jeżeli nie to wróć do tego katalogu wpisując:
 
 ```bash
-cd _workspaces/zadanie1-[userName]
+cd _workspaces/wprowadzenie-do-cli-[userName]
 ```
 
 1. Wykorzystaj polecenie :
@@ -202,10 +202,10 @@ cd studenci
 mkdir 123123
 ```
 
-18. Wróć do katalogu __workspaces/zadanie1-[userName]_
+18. Wróć do katalogu __workspaces/wprowadzenie-do-cli-[userName]_
 
 ```bash
-cd _workspaces/zadanie1-[userName]
+cd _workspaces/wprowadzenie-do-cli-[userName]
 ```
 
 19. Wykorzystaj polecenie
@@ -239,7 +239,7 @@ W celu weryfikacji czy wykonałeś zadanie 1 poprawnie należy wykonać poleceni
 Najpier wykonaj:
 
 ```bash
-cd workspaces/zadanie1-[userName]
+cd workspaces/wprowadzenie-do-cli-[userName]
 ```
 
 ,a następnie:
@@ -257,14 +257,80 @@ Wynik weryfikacji uzyskasz w formie raportu wyświetlonego w terminalu.
 ---
 
 ## Zadanie 2
+Kolejne zadanie nie będzie mieć już tak mocno rozbudowanych podpowiedzi. W związkuz tym przypominam że w każdej chwilii możesz otworzyć _wprowadznie.md_ gdzie opisane zostały wszystkie niezbędne polecenia wraz z przykładami.
 
+---
 Krok 1. Wykonaj poprawnie zadanie 1.
 
-Krok 2. Otwórz ponownie plik _raport_zad1.txt_ w katalogu z Twoim nr indesku. Zweryfikuj czy w raporcie znajdują się takie same informaje jak te które otrzymałeś z uruchomienia testów dla Zadania 1.
+Krok 2. Otwórz ponownie plik _raport_zad1.txt_ w katalogu z Twoim nr indesku. Zweryfikuj czy w raporcie znajdują się takie same informaje jak te, które otrzymałeś z uruchomienia testów dla Zadania 1.
 Jeżeli tak, super. Możesz zamknąć plik i przejść do kolejnogo kroku. Jeżli nie, możliwe że zapominałeś przetestować zadanie 1, w takim wypadku odsyłam do akapitu _Test zadania 1_.
 
-Krok 3. W katalogu domyślnym (_workspaces/zadanie1-[userName]_) gdzie znajduje się katalog _przedmioty_ utwórz nowy katalog i nazwij go _backups_\_ (tak z podkreśleniem na końcu).
+Krok 3. W katalogu domyślnym (_workspaces/wprowadzenie-do-cli-[userName]_) gdzie znajduje się katalog _przedmioty_ utwórz nowy katalog o nazwie _backups_ .
 
-Krok 4. W katalogu backup\_ uwtórz katalog _V1_\_.
+Krok 4. W katalogu _backup_ uwtórz katalog _version_1_.
 
-Krok 5. Wykonaj kopię pliku _przedmioty_ wraz z jego zawartością do katalogu: _backup/\_V1_\_.
+Krok 5. Wykonaj kopię katalogu _przedmioty_ wraz z jego zawartością do katalogu: _backup/v1_.
+
+## Przesłanie zadań do oceny
+
+Jeżeli przetestowałeś __wszystkie__ zadania lokanie w Twoim Workspace, możesz przesłać je do oceny.
+
+W tym celu musimy wykonać kilka poleceń wykonujących operacje na naszym repozytorium. W tym celu wykorzystujemy system kontroli wersji GIT (nie mylić z github.com ponieważ GIT jest instalowany lokalnie - jak praktycznie każdy program, natomiast github.com to w bardzo dużym uproszczeniu platforma z repozytoriami wspierająca GIT'a).
+
+
+UWAGA! Przed przesłaniem zadań należy je przetestować lokalnie za pomocą dedykowanych poleceń [check_z1, check_z2, check_z3]. Testy lokalne można uruchamiać nieokreślona ilość razy. Przesłać prace można natomiast jeden raz.
+
+Krok 1. Przejście do głównego katalogu - zauważ że [userName] to nazwa użytkownika.
+
+```bash
+cd /workspaces/wprowadzenie-do-cli-[userName]
+```
+u mnie wygląda to tak:
+```bash
+cd /workspaces/wprowadznie-do-cli-g7eg
+```
+
+Krok 2. Dodanie utworzonego katalogu _przedomoty_ wraz z zawartością do systemu kontroli wersji GIT. 
+```bash
+git add .
+```
+**Ta kropka w poleceniu jest bardzo ważna.**
+
+Krok 3. Dodanie commita wraz z komentarzem. Commit to nic innego jak zatwierdzenie dokonanych zmian. Można to utożsamiać z "stopklatką" wykonaną na naszym projecie, do której możemy w dowolnym momencie powrócić.
+
+W cudzysłowiu podajemy komentarz, który w jasny sposób powinien informować jakie zmiany zostały dokonane w tym commicie.
+
+Wykonaj następujące polecenie:
+
+```bash
+git commit -m 'Wykonane poprawnie wszystkie zadania'
+```
+Po uruchomieniu tego polecenia, otrzymamy informację z podsumowaniem z id commita oraz co zostało zapisane w commicie.
+
+```code
+[main 184629d] Rozwiazane zadania
+ 2 files changed, 2 insertions(+)
+ create mode 100644 przedmioty/programowanie/prowadzacy/glowny_prowadzacy/prowadzacy.txt
+ create mode 100644 przedmioty/programowanie/studenci/123123/123123.txt
+ ```
+
+
+Krok 4. Przesłanie zmian na serwer.
+Jeżli polecenie z commitem zostało wykonane poprawnie, teraz musimy przesłać zmiany na serwer github. W tym celu wykonujemy następujące polecenie:
+
+```bash
+git push
+```
+
+W odpowiedzi zwrotnej uzyskamy informacje o postępie wykonywanych operacji.
+
+Nasza praca przesłana na serwer, zostanie teraz automatycznie poddana sprawdzeniu.
+
+Poniżej screen jak powinno wyglądać wywołanie poszczególnych poleceń:
+
+![Dodanie zmian do repo i przeslanie do repozytorium zdalnego](./.img/2_git_add_commit_push.png)
+
+
+Przechodząc na adres naszego repozytorium możemy spradzić czy nasza praca przeszła wszystkie testy pozytywnie.
+W tym celu należy przejsć do zakładki Actions.
+~

@@ -6,9 +6,18 @@ Poniżej zostały opisane polecenie pozwalające w postawowym zakresie dokonać 
 
 
 ## Zanim rozpoczniemy pracę:
-Na samym początku należy uruchomić środowisko Codespace logując się przy tym na swoje konto GitHub i klikając w zielony przycisk <> Code w udostępnionym repozytorium, a następnie wybierając zakładkę Codespaces i Create codespace on main.
+Na samym początku należy uruchomić środowisko Codespace logując się przy tym na swoje konto GitHub i klikając w zielony przycisk <> Code w udostępnionym repozytorium, a następnie wybierając zakładkę Codespaces i klikając ikonę **+** wybrać Create codespace on main.
 
 ![Alt text](./.img/run_codespace.png)
+
+Jeżeli uruchomiłeś już wcześniej Codespace, zamiast napisu 'No codespaces' pojawi się ostatnio używana pozycja -  w moim przypadku Codespace zostało nazwane automatycznie 'shiny couscous'.
+
+![Alt text](./.img/istniejace_codespace.png)
+
+W takim wypadku należy kliknąć try kropki po prawej stronie tego codespace i wybrać 'Open in Browser' lub kliknąć na nazwę Codespace czyli 'shiny couscous'. 
+![Open in Browser](./.img/2_example_workspace_terminal.png)
+
+Powinno zostać otwarte nowe okno a w nim załadowane nasze Codespace.
 
 Po jego uruchmieniu upewnij się że w dolnej części okna przeglądarki znajduje się Terminal.
 
@@ -16,21 +25,35 @@ Jeżeli go nie widzisz z menu wybierz ikonę <b> ≡ (ikona menu hamburgera)</b>
 
 Powinieneś zauważyć w oknie terminalu który otowrzy się w dolnej części ekranu, coś podobnego do:
 
-![Przykładowy zrzut erkanu z terminalu](./.img/terminal.png)
-lub 
 ![Przyklad](./.img/example_workspace_terminal.png)
+
+Prawdopodobnie będziesz widział podobne okno:
+![Domyślna sciezka ](./.img/first_run_terminal.png)
+gdzie zamiast _g7eg_ będzie nazwa Twojego użytkownika.
+
+Zauważ że cała linia składa się z zielonego elementu, niebiezkiego oraz pomarańczowego.
+
+Zielony fragment to nazwa Twojego używtkonika.
+Niebieski to ścieżka do aktualnego katalgo w którym się znajdujesz.
+
+Ustalmy już tutaj że tą właśnie ścieżkę _/workspaces/wprowadzenie-do-cli-[userName]_ będziemy nazywać katalogiem głównym.
+
+Pomarańczowy fragemen natomiast mówi nam o gałęzi na której pracujemy w systemie kontroli wersji (GIT), domyślnie jest to main i to zostaje bez zmian w ramach naszego wprowadzenia do CLI.
+
 
 Najważniejszy w tym wszystkim jest znak '$' nazywany znakiem zachęty.
 
-Wszystkie polecenia będzie wpisywać po znaku zachęty.
+Wszystkie polecenia będziesz wpisywać po znaku zachęty.
 
-Oznacza to że wszystko zostało uruchomione poprawnie i możemy przystąpić do dalszej pracy!
+Jeżeli widzisz na ekranie co opisano powyżej, oznacza to, że wszystko zostało uruchomione poprawnie i możemy przystąpić do dalszej pracy!
 
 
 # 🟢 Podstawowe polecenia bash - wprowadzenie
 Tutaj opisanych zostało kilka podstawowych poleceń, które są niezbędnę do poruszania się po katalogach i plikach na naszym komputerze oraz wykonywania podstawowych operacji na nich. Tak zdaję sobie sprawę że jesteś przyzyczajony do pracy z GUI i najchętniej zamknął byś to wszystko i [...]. 
 
 Jednak pocieszę Cię, bo nie jesteś jedyną osobą, która na poczatku przygody z CLI miała takie odczucia. Najtrudniejsze jest zmiana swojego negatywnego nastawienia i przełamenie przekonań że to trudne. Zobaczysz że wraz z praktyką przyjdzie satysfakcja!
+
+
 
 # Zacznimy więc od czegoś prostego i jednocześnie przydatnego.
 
@@ -93,6 +116,13 @@ Podczas wpisywania np nazwy katalogu nie musisz wpisać jej w całości. Wystarc
 
 Jeżeli katalogów jest więcej zaczynających swją nazwę od 'e', terminal wświetli ponownie listę katalogów, które spałniają to kryterium. Wprowadzając kolejną literę i ponownie wciskając klawisz TAB nazwa zostanie uzupełniona automatycznie.
 
+___
+
+### TIP2!
+___
+Jeżeli dopiero co wpisywałeś chwilę temu polecenie które musisz powtórzyć, nie wpisuj go ponownie! Wykorzystaj autouzupełnianie, wciskając strzałkę do góry lub do dołu w celu przewinięcia do interesującego Cię polecenia.
+
+Następnie należy wybrać klawisz enter w celu wywowałnia polecenia. Możesz również uzupełnić odnalezione polecenie o kolejne elementy... np rozbudować ścieżkę do kolejneg katalogu i zatwierdzić klawiszem enter.
 ___
 
 Wiemy już jak przechodzić z katalogu do kolejnego katalogu.
