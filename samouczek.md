@@ -45,7 +45,17 @@ wewnątrz niego utwórz dwa katalogi:
 -   _prowadzacy_ \*(unikaj PL nazków w nazwach katalogów oraz plików)
 -   _studenci_
 
-wewnątrz katalogu studenci utwórz katalog z własnym nr indeksu np:
+wewnątrz katalogu _prowadzacy_ utwórz katalog:
+
+-   _glowny_prowadzacy_
+
+wewnątrz katalogu _glowny_prowadzacy_ utwórz plik:
+
+-   _prowadzacy.txt_
+
+Wpisz w pliku tylko imię osoby, którą chciałbyś widzieć w roli prowadzącego kurs z programowania i zapisz zmiany.
+
+Wewnątrz katalogu studenci utwórz katalog z własnym nr indeksu np:
 
 -   _123123_ \*(podaj swój nr indeksu)
 
@@ -127,13 +137,52 @@ Aby upewnić się że w katalogu nie ma jeszcze każdnych plików.
 mkdir prowadzacy
 ```
 
-8. Wykorzystaj polecenie
+8. Wykorzystaj polecenie:
+
+```bash
+ls
+```
+Aby upewnić się że w katalogu nie ma jeszcze każdnych plików.
+
+9. Wykorzystaj polecenie:
+
+```bash
+cd prowadzacy
+```
+
+10. Wykorzystaj polecenie
+
+```bash
+mkdir glowny_prowadzacy
+```
+11. Wykorzystaj polecenie:
+
+```bash
+cd glowny_prowadzacy
+```
+12. Wykorzystaj polecenie
+
+```bash
+code prowadzacy.txt
+```
+Wpisz w pliku treść zgodnie z poleceniem i zapisz zmiany.
+
+13. Wróć do katalogu _programowanie_.
+Wykorzystaj w tym celu polecenie:
+```bash
+cd ..
+```
+Powtórz je tyle razy ile jest to konieczne.
+
+Utwórz katalog _studenci_ znajdujący się w tym samym katalogu co _prowadzacy_ (czyli wewnątrz katalogi _programowanie_).
+
+14. Wykorzystaj polecenie
 
 ```bash
 mkdir studenci
 ```
 
-9. Wykorzystaj polecenie:
+15. Wykorzystaj polecenie:
 
 ```bash
 ls
@@ -141,42 +190,45 @@ ls
 
 Aby upewnić się że w katalogu zostały utworzone dwa nowe katalogi.
 
-10. Przejdź do katalogu studenci za pomocą
+16. Przejdź do katalogu studenci za pomocą
 
 ```bash
 cd studenci
 ```
 
-11. Wykorzystaj polecenie gdzie zamiast 123123 podaj wlasny nr indeksu
+17. Wykorzystaj polecenie gdzie zamiast 123123 podaj wlasny nr indeksu
 
 ```bash
 mkdir 123123
 ```
 
-12. Wróć do katalogu __workspaces/zadanie1-[userName]_
+18. Wróć do katalogu __workspaces/zadanie1-[userName]_
 
 ```bash
 cd _workspaces/zadanie1-[userName]
 ```
 
-13. Wykorzystaj polecenie
+19. Wykorzystaj polecenie
 
 ```bash
 tree
 ```
 
-14. Wykorzystaj polecenie
+20. Wykorzystaj polecenie
 
 ```bash
 cd /przedmiot/programowanie/studenci/123123
 ```
 
-15. Wykorzystaj polecenie
+21. Wykorzystaj polecenie
 
 ```bash
 code zad1.txt
 ```
-16. Wpisz w oknie edycji pliku treśći zapisz zmiany. Przydatnym do tego celu jest skrót klawiszowy Ctrl + S.
+22. Wpisz w oknie edycji pliku treśći zapisz zmiany. Przydatnym do tego celu jest skrót klawiszowy Ctrl + S.
+
+Po poprawnym wykonaniu wsztstkich poleceń powinieneś uzyskać następującą strukturę plików:
+![Struktura plików dla zadania 1](./.img/tree_zad1.png)
 
 </details>
 
