@@ -76,7 +76,7 @@ Jeżeli na tym etapie nie wiesz jak wykonać poszczególne kroki poniżej znajdu
 Klikając na strzełeczkę rozwiniesz listę z podpowiedziami.
 
 <details>
-  <summary>Podpowiedź</summary>
+  <summary><p style="color:#FF0000">Podpowiedź</p></summary>
 
 0. Wykorzystaj polecenie w celu upewnienia się że jesteś we właściwym katalgu
 
