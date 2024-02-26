@@ -14,8 +14,15 @@ fi
 }
 
 function check_z2(){
+testnum=2
+pathz2=./.task_tests/zad2_test.py
 
-python3 ./.task_tests/zad2_test.py
+if [ -f $pathz1 ]; then
+    code --list-extensions > ./.task_tests/z1_extensions.txt
+    python3 $pathz2
+else
+    echo 'Test do zadanie' $testnum 'nie istnieje. Skontaktuj się z prowadzącym.'
+fi
 
 }
 

@@ -29,8 +29,10 @@ Terminal to po prostu program, który obsługuje daną powłokę. Pozwala na uru
 
 Jeżeli chodzi o terminal należy pamiętać że jest to jedno z narzędzi, które można dosyć mocno dostosować pod swoje potrzeby. Z tego względu część informacji jak i sposób ich wyświetlania może się róznić w zależności od ustawień.
 
-![img not found](./.img/hard_shell_term_user.png)
+<!-- ![img not found](./.img/hard_shell_term_user.png) -->
+![Alt text](./.img/image-20.png)
 Źródło: [LINK](https://medium.com/@Abhishek_kumar_/console-vs-terminal-vs-shell-difference-betweeen-them-b9acd3270dae)
+
 ___
 ## Startujemy!
 

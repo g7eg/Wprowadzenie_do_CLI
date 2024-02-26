@@ -262,14 +262,27 @@ Kolejne zadanie nie będzie mieć już tak mocno rozbudowanych podpowiedzi. W zw
 ---
 Krok 1. Wykonaj poprawnie zadanie 1.
 
-Krok 2. Otwórz ponownie plik _raport_zad1.txt_ w katalogu z Twoim nr indesku. Zweryfikuj czy w raporcie znajdują się takie same informaje jak te, które otrzymałeś z uruchomienia testów dla Zadania 1.
-Jeżeli tak, super. Możesz zamknąć plik i przejść do kolejnogo kroku. Jeżli nie, możliwe że zapominałeś przetestować zadanie 1, w takim wypadku odsyłam do akapitu _Test zadania 1_.
+Krok 2. Otwórz ponownie plik _zad1.txt_ w katalogu z Twoim nr indesku. Zweryfikuj czy w pliku znajdują się takie same informaje jak te, które umieściłeś w ramach Zadania 1.
+Jeżeli tak, super. Możesz zamknąć plik i przejść do kolejnogo kroku. Jeżli nie, możliwe że pominąłeś któryś z koroków.I nie zapominałeś przetestować zadanie 1, w takim wypadku odsyłam do akapitu _Test zadania 1_.
 
 Krok 3. W katalogu domyślnym (_workspaces/wprowadzenie-do-cli-[userName]_) gdzie znajduje się katalog _przedmioty_ utwórz nowy katalog o nazwie _backups_ .
 
-Krok 4. W katalogu _backup_ uwtórz katalog _version_1_.
+Krok 4. W katalogu _backup_ uwtórz katalog _v1_.
 
 Krok 5. Wykonaj kopię katalogu _przedmioty_ wraz z jego zawartością do katalogu: _backup/v1_.
+
+Innymi słowy:
+W utworzonym katalogu _v1_ ma znaleźć się kopia katalogu _przedmioty_ wraz z całą zawartością.
+
+Krok 6. Sprawdź poprawność wykonania polecenia.
+W tym celu przejdź do główenego katalogu.
+```bash
+cd /workspaces/wprowadznie-do-cli-g7eg
+```
+a następnie wykonaj polecenie:
+```bash
+check_z2
+```
 
 ## Przesłanie zadań do oceny
 
@@ -324,13 +337,12 @@ git push
 
 W odpowiedzi zwrotnej uzyskamy informacje o postępie wykonywanych operacji.
 
-Nasza praca przesłana na serwer, zostanie teraz automatycznie poddana sprawdzeniu.
+Nasza praca została przesłana na serwer, zostanie teraz automatycznie poddana sprawdzeniu.
 
-Poniżej screen jak powinno wyglądać wywołanie poszczególnych poleceń:
+<!-- Poniżej screen jak powinno wyglądać wywołanie poszczególnych poleceń: -->
 
-![Dodanie zmian do repo i przeslanie do repozytorium zdalnego](./.img/2_git_add_commit_push.png)
+<!-- ![Dodanie zmian do repo i przeslanie do repozytorium zdalnego](./.img/2_git_add_commit_push.png) -->
 
 
-Przechodząc na adres naszego repozytorium możemy spradzić czy nasza praca przeszła wszystkie testy pozytywnie.
+Przechodząc na adres repozytorium możemy spradzić czy nasza praca przeszła wszystkie testy pozytywnie.
 W tym celu należy przejsć do zakładki Actions.
-~
