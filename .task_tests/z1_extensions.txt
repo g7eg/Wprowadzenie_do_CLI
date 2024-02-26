@@ -1,4 +1,4 @@
-Rozszerzenia zainstalowane w lokalizacji Codespaces: literate rotary-phone:
+Rozszerzenia zainstalowane w lokalizacji Codespaces: probable disco:
 GitHub.codespaces
 GitHub.github-vscode-theme
 github.vscode-github-actions

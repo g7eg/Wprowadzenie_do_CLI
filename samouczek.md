@@ -25,7 +25,7 @@ Jeżeli wpiszesz przez przypadek polecenie _cd_ bez podania jakiejkolwiek ście�
 Dla pewności przed rozpoczęciem pracy wykonaj polecenie:
 
 ```bash
-cd workspaces/wprowadzenie-do-cli-[userName]
+cd /workspaces/wprowadzenie-do-cli-[userName]
 ```
 
 ### UWAGA! Jeżeli czytając treść polecenia uznasz że jest to na chwilę obecną zbyt trudne i i nie ogarniasz tego tematu, nie przejmuj się tylko zernij do podpowidzi które znajdują się poniżej treści zadania (ps. trzeba kliknąć w strzełeczkę aby się pojawiły 😉.
@@ -88,7 +88,7 @@ jeżeli zwóciona ścieżka to _workspaces/wprowadzenie-do-cli-[userName]_ znacz
 Jeżeli nie to wróć do tego katalogu wpisując:
 
 ```bash
-cd _workspaces/wprowadzenie-do-cli-[userName]
+cd /workspaces/wprowadzenie-do-cli-[userName]
 ```
 
 1. Wykorzystaj polecenie :
@@ -205,7 +205,7 @@ mkdir 123123
 18. Wróć do katalogu __workspaces/wprowadzenie-do-cli-[userName]_
 
 ```bash
-cd _workspaces/wprowadzenie-do-cli-[userName]
+cd /workspaces/wprowadzenie-do-cli-[userName]
 ```
 
 19. Wykorzystaj polecenie
@@ -239,7 +239,7 @@ W celu weryfikacji czy wykonałeś zadanie 1 poprawnie należy wykonać poleceni
 Najpier wykonaj:
 
 ```bash
-cd workspaces/wprowadzenie-do-cli-[userName]
+cd /workspaces/wprowadzenie-do-cli-[userName]
 ```
 
 ,a następnie:

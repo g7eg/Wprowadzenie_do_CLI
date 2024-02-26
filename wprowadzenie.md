@@ -23,12 +23,9 @@ Po jego uruchmieniu upewnij się że w dolnej części okna przeglądarki znajdu
 
 Jeżeli go nie widzisz z menu wybierz ikonę <b> ≡ (ikona menu hamburgera)</b> -> terminal -> nowy terminal.
 
-Powinieneś zauważyć w oknie terminalu który otowrzy się w dolnej części ekranu, coś podobnego do:
-
-![Przyklad](./.img/example_workspace_terminal.png)
 
 Prawdopodobnie będziesz widział podobne okno:
-![Domyślna sciezka ](./.img/first_run_terminal.png)
+![Alt text](./img2/example_workspace_terminal.png)
 gdzie zamiast _g7eg_ będzie nazwa Twojego użytkownika.
 
 Zauważ że cała linia składa się z zielonego elementu, niebiezkiego oraz pomarańczowego.
@@ -36,7 +33,7 @@ Zauważ że cała linia składa się z zielonego elementu, niebiezkiego oraz pom
 Zielony fragment to nazwa Twojego używtkonika.
 Niebieski to ścieżka do aktualnego katalgo w którym się znajdujesz.
 
-Ustalmy już tutaj że tą właśnie ścieżkę _/workspaces/wprowadzenie-do-cli-[userName]_ będziemy nazywać katalogiem głównym.
+Ustalmy już tutaj że tą właśnie ścieżkę <span style="color:#339CFF">_/workspaces/wprowadzenie-do-cli-[userName]_</span> będziemy nazywać **katalogiem głównym**.
 
 Pomarańczowy fragemen natomiast mówi nam o gałęzi na której pracujemy w systemie kontroli wersji (GIT), domyślnie jest to main i to zostaje bez zmian w ramach naszego wprowadzenia do CLI.
 
@@ -64,10 +61,13 @@ ls
 ```
 Wyświetli nam listę elementów znadujących się w katalogu w którym się obecnie znajdujemy.
 
-![Przykład ls](./.img/ls.png)
+<!-- ![Przykład ls](./.img/ls.png) -->
+![Alt text](./img2/ls.png)
 Te same informacje możesz znaleźć w GUI - eksploratorze plików. 
 
-<img src="./.img/drzewko.png"  height="100" />
+<img src="./img2/eksplorator.png" height="100" />
+
+Niektóre pliki mogą być domyślnie lub specjanie ukryte w drzewku exsploratora. Zwóć uwagę na plik LICENSE w terminalu i w eksploratorze.
 
 Jednak o GUI na chwilę zapominamy. 
 
@@ -83,14 +83,15 @@ ls -a
 ```
 Pozwala wyświetlić wszystkie ukryte pliki w katalogu.
 
-![ls-a](./.img/ls-a.png)
-
+<!-- ![ls-a](./.img/ls-a.png) -->
+![Alt text](./img2/ls-a.png)
 ```bash
 ls -l
 ```
 Pozwala wyświetlić listę plików z bardziej szczegółowym opisem.
 
-![ls-l](./.img/ls-l.png)
+<!-- ![ls-l](./.img/ls-l.png) -->
+![Alt text](./img2/ls-l.png)
 
 Zazwyczaj polecenia posiadają wiele parametrów zmieniających lub rozszerzajacych działanie danego polecenia. Wypisując je wszystkie tutaj, miał byś sporo lektury do przeczytania i zapewne pominął byś to. Warto więc zgłębić tą wiedzę samodzielnie.
 
@@ -102,7 +103,11 @@ cd example
 ```
 W przykładze wywołano wczesniej ls w celu wylistowania dostępnych plików i katalogów. Następnie podano polcenie zmiany katalogu cd i nazwę katalogu.
 
-![cd](./.img/cd.png)
+<!-- ![cd](./.img/cd.png) -->
+![Alt text](./img2/cd.png)
+
+
+
 ### Powrót do porzedniego katalogu
 Jeżeli pomyślisz się i będzies chciał powrócic do poprzedniego katalogu, a jego ściezka jest skomplikowana. Możesz wykorzystać polecenie:
 ```bash
@@ -137,7 +142,7 @@ Po wywołaniu wróciliśmy do poprzedniego katalogu.
 
 [?] Dlaczego po zmiany katalogu na *'example'* i wywołaniu polecenie *ls* nic się nie pojawiło?
 
-![Alt text](./.img/ls_cd_cd.gif)
+<!-- ![Alt text](./.img/ls_cd_cd.gif) -->
 ## UWAGA
 Bardzo prawdopobne że zdaży Ci się wpisać w konsoli polecenie *cd* bez żadnych dostakowych argumentów. Spowoduje to przejście do katalogu głównego naszego systemu operacyjnego. Po wywołaniu polecenie *ls* wyświetlone zostaną wszystkie katalogi systemowe. Spowoduje to zapewne spory dyskomfort i konsternację. W takim wypadku należy przejść do katalogu w którym będziemy wcześniej pracowaliśmy. Dokonujemt tego w naszym przpadku za pomocą polecenie *cd /workspaces/Wprowadzenie_do_CLI*.
 ## pwd - wyświetl ścieżkę do obecnego katalogu
