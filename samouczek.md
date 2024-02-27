@@ -277,7 +277,7 @@ W utworzonym katalogu _v1_ ma znaleźć się kopia katalogu _przedmioty_ wraz z 
 Krok 6. Sprawdź poprawność wykonania polecenia.
 W tym celu przejdź do główenego katalogu.
 ```bash
-cd /workspaces/wprowadznie-do-cli-g7eg
+cd /workspaces/wprowadznie-do-cli-[userName]
 ```
 a następnie wykonaj polecenie:
 ```bash
@@ -300,7 +300,7 @@ cd /workspaces/wprowadzenie-do-cli-[userName]
 ```
 u mnie wygląda to tak:
 ```bash
-cd /workspaces/wprowadznie-do-cli-g7eg
+cd /workspaces/wprowadznie-do-cli-[userName]
 ```
 
 Krok 2. Dodanie utworzonego katalogu _przedomoty_ wraz z zawartością do systemu kontroli wersji GIT. 

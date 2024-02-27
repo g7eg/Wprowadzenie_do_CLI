@@ -15,7 +15,7 @@ path6 = f'{pwd}/backups/v1/przedmioty/programowanie/studenci'
 list_of_exist_files = []
 
 if __name__ == '__main__':
-    print('Uruchamiam testy zadania 1.')
+    print('Uruchamiam testy zadania 2.')
     print('_'*30)
 
     if os.path.exists(path1):
