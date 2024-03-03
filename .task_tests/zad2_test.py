@@ -79,7 +79,7 @@ if __name__ == '__main__':
         exit(1)
 
 
-    if len(list_of_exist_files) == 5:
+    if len(list_of_exist_files) >= 7:
         print('_'*30)
         print('🟢 Wszystkie katalogi zostały utworzone poprawnie.')
         # print('Możesz przystąpić do kolejnego zadania.')

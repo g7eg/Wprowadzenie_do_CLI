@@ -75,6 +75,7 @@ Jednak pocieszę Cię, bo nie jesteś jedyną osobą, która na poczatku przygod
 
 # Zacznimy więc od czegoś prostego i jednocześnie przydatnego.
 
+
 ## ls - wyświetl zawartość katalogu
 ls - list. Wpisanie tego polecenia w takiej formie:
 ```bash
@@ -279,6 +280,60 @@ rm -R nowyFolder
 <!-- ![rm_dir](./.img/rm_dir.png) -->
 <!-- ![Alt text](image.png) -->
 <img src="./.img/image-14.png"  width="800"/>
+
+## Podawanie ścieżki do katalogu
+Ścieżkę do pliku czy katalogu możemy podawać na dwa sposoby. 
+- Pierwszy to podanie ścieżki 'bezwzględnie' - względem katalogu głównego /.
+
+```bash
+cd /workspaces/wprowadzenie-do-cli-[userName]/example
+```
+- Drugi to podanie ścieżki 'względnie' wzgędem miejsca gdzie aktualnie się znajdujemy.
+Znajdujemy się w '/workspaces/wprowadzenie-do-cli-[userName]' i wywołujemy polecenie:
+```bash
+cd example
+```
+
+Gdzie [userName] to nazwa Twojego użytkonika.
+Efekt działania obu powyżej wymienionych poleceń jest identyczny.
+
+\*Zasada ta dotyczy wszystkich poleceń, nie tylko _cd_.
+
+Dzięki podaniu ścieżki względem katalogu głównego możemy dokonywać 'przeskoków' z jednego katalogu do drugiego, bez konieczności 'przechodzenia' przez wszystkie katalogi poleceniem _cd_.
+
+Przykład:
+Polcenie 
+```bash
+cd /
+```
+Przenosi nas do katalogu głównego, w którym znajdują się katalogi i pliki systemowe w tym nasz katalog roboczy _workspace_.
+Wykonując teraz polecenie:
+```bash
+cd workspaces/wprowadzenie-do-cli-g7eg/example/
+```
+Przeskakujemy od razud do katalogu example.
+Zwróć tutaj uwagę że podana ścieżka nie zaczyna się od znaku _/_ tak więc wykonywana jest względem katalogu gdzie aktualnie się znajduję.
+Tak się składa że to to samo miejsce co katalog główny.
+<img src="./.img/image-21.png"  width="800"/>
+Idźmy o korok dalej i zasymulujmy sytuację gdy chcę z innego katalogu przedostać się do katalogu example znajdujacego się w naszym katalogu roboczym.
+W tym celu wróciłem do katalogu głownnego przez polecenie
+```bash
+cd /
+```
+Następnie przeszedłem do katalogu _/home_
+W tym przypadku podając polcenie:
+```bash
+cd workspaces/wprowadzenie-do-cli-g7eg/example/
+```
+Uzyskam błąd:
+```bash
+bash: cd: workspaces/wprowadzenie-do-cli-g7eg/example/: No such file or directory
+```
+Ponieważ w katalogu home nie ma katalogu workspaces/wprowadznie-do-cli-g7eg/exaple
+
+Aby przejść do tego katalogu będąc w zupełnie innym katalogu należy podać ścieżkę 'bezwzgledną' zaczynającą się od _/_.
+
+<img src="./.img/image-23.png"  width="800"/>
 
 ## clear - wyczyść okno terminalu
 Pozwolę sobie nie komentować tego polecenia, przetestuj je samodzielnie 😌.

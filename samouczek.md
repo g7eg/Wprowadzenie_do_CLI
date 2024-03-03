@@ -90,17 +90,19 @@ Jeżeli nie to wróć do tego katalogu wpisując:
 ```bash
 cd /workspaces/wprowadzenie-do-cli-[userName]
 ```
+### Zalecam na początku wykorzystywać polcenie pwd do sprawdzania gdzie aktualnie się znajdujesz.
+
 
 1. Wykorzystaj polecenie :
 
 ```bash
-mkdir przedmiot
+mkdir przedmioty
 ```
 
 2. Przejdź do katalogu przedmiot za pomocą:
 
 ```bash
-cd przedmiot
+cd przedmioty
 ```
 
 3. Wykorzystaj polecenie:
@@ -137,37 +139,43 @@ Aby upewnić się że w katalogu nie ma jeszcze każdnych plików.
 mkdir prowadzacy
 ```
 
-8. Wykorzystaj polecenie:
+8. Wykorzystaj polecenie
+
+```bash
+cd prowadzacy
+```
+
+9. Wykorzystaj polecenie:
 
 ```bash
 ls
 ```
 Aby upewnić się że w katalogu nie ma jeszcze każdnych plików.
 
-9. Wykorzystaj polecenie:
+10. Wykorzystaj polecenie:
 
 ```bash
 cd prowadzacy
 ```
 
-10. Wykorzystaj polecenie
+11. Wykorzystaj polecenie
 
 ```bash
 mkdir glowny_prowadzacy
 ```
-11. Wykorzystaj polecenie:
+12. Wykorzystaj polecenie:
 
 ```bash
 cd glowny_prowadzacy
 ```
-12. Wykorzystaj polecenie
+13. Wykorzystaj polecenie
 
 ```bash
 code prowadzacy.txt
 ```
 Wpisz w pliku treść zgodnie z poleceniem i zapisz zmiany.
 
-13. Wróć do katalogu _programowanie_.
+14. Wróć do katalogu _programowanie_.
 Wykorzystaj w tym celu polecenie:
 ```bash
 cd ..
@@ -176,13 +184,13 @@ Powtórz je tyle razy ile jest to konieczne.
 
 Utwórz katalog _studenci_ znajdujący się w tym samym katalogu co _prowadzacy_ (czyli wewnątrz katalogi _programowanie_).
 
-14. Wykorzystaj polecenie
+15. Wykorzystaj polecenie
 
 ```bash
 mkdir studenci
 ```
 
-15. Wykorzystaj polecenie:
+16. Wykorzystaj polecenie:
 
 ```bash
 ls
@@ -190,42 +198,42 @@ ls
 
 Aby upewnić się że w katalogu zostały utworzone dwa nowe katalogi.
 
-16. Przejdź do katalogu studenci za pomocą
+17. Przejdź do katalogu studenci za pomocą
 
 ```bash
 cd studenci
 ```
 
-17. Wykorzystaj polecenie gdzie zamiast 123123 podaj wlasny nr indeksu
+18. Wykorzystaj polecenie gdzie zamiast 123123 podaj wlasny nr indeksu
 
 ```bash
 mkdir 123123
 ```
 
-18. Wróć do katalogu __workspaces/wprowadzenie-do-cli-[userName]_
+19. Wróć do katalogu __workspaces/wprowadzenie-do-cli-[userName]_
 
 ```bash
 cd /workspaces/wprowadzenie-do-cli-[userName]
 ```
 
-19. Wykorzystaj polecenie
+20. Wykorzystaj polecenie
 
 ```bash
 tree
 ```
 
-20. Wykorzystaj polecenie
+21. Wykorzystaj polecenie
 
 ```bash
-cd /przedmiot/programowanie/studenci/123123
+cd przedmiot/programowanie/studenci/123123
 ```
 
-21. Wykorzystaj polecenie
+22. Wykorzystaj polecenie
 
 ```bash
 code zad1.txt
 ```
-22. Wpisz w oknie edycji pliku treśći zapisz zmiany. Przydatnym do tego celu jest skrót klawiszowy Ctrl + S.
+23. Wpisz w oknie edycji pliku treśći zapisz zmiany. Przydatnym do tego celu jest skrót klawiszowy Ctrl + S.
 
 Po poprawnym wykonaniu wsztstkich poleceń powinieneś uzyskać następującą strukturę plików:
 ![Struktura plików dla zadania 1](./.img/tree_zad1.png)
@@ -267,9 +275,9 @@ Jeżeli tak, super. Możesz zamknąć plik i przejść do kolejnogo kroku. Jeżl
 
 Krok 3. W katalogu domyślnym (_workspaces/wprowadzenie-do-cli-[userName]_) gdzie znajduje się katalog _przedmioty_ utwórz nowy katalog o nazwie _backups_ .
 
-Krok 4. W katalogu _backup_ uwtórz katalog _v1_.
+Krok 4. W katalogu _backups_ uwtórz katalog _v1_.
 
-Krok 5. Wykonaj kopię katalogu _przedmioty_ wraz z jego zawartością do katalogu: _backup/v1_.
+Krok 5. Wykonaj kopię katalogu _przedmioty_ wraz z jego zawartością do katalogu: _backups/v1_.
 
 Innymi słowy:
 W utworzonym katalogu _v1_ ma znaleźć się kopia katalogu _przedmioty_ wraz z całą zawartością.
